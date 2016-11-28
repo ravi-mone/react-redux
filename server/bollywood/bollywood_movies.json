@@ -1,0 +1,178 @@
+[
+  {
+    "title"          : "Title",
+    "director"       : "Director",
+    "cast"           : "Cast",
+    "genre"          : "Genre",
+    "notes"          : "Notes",
+    "cinematographer": "Cinematographer"
+  },
+  {
+    "title"          : "Balika Badhu a.k.a. Baby Bride",
+    "director"       : "P. T. Shaida (Tulsidutt Shaida)",
+    "cast"           : "Miss Ali, Tarak Bagcha, Pandit Tulsidutt Shaida",
+    "genre"          : "Social",
+    "notes"          : "Asiatic Film Corp., Calcutta",
+    "cinematographer": ""
+  },
+  {
+    "title"          : "Daksha Yagna a.k.a. Sati Parvati",
+    "director"       : "Vishnupant Divekar",
+    "cast"           : "Khalil, Prabha, Vaidya",
+    "genre"          : "Mythology",
+    "notes"          : "Kohinoor Film Company",
+    "cinematographer": "DOP: A. P. Karandikar"
+  },
+  {
+    "title"          : "Jalandhar Vrinda a.k.a. Sati Tulsi Vrinda",
+    "director"       : "G. V. Sane",
+    "cast"           : "",
+    "genre"          : "Mythology",
+    "notes"          : "Hindustan Cinema Film Co., Nasik",
+    "cinematographer": ""
+  },
+  {
+    "title"          : "Kansa Vadha a.k.a. End Of The Tyrant King",
+    "director"       : "G. V. Sane",
+    "cast"           : "",
+    "genre"          : "Mythology",
+    "notes"          : "Hindustan Cinema Film Co., Nasik.[15]",
+    "cinematographer": ""
+  },
+  {
+    "title"          : "Katorabhar Khoon a.k.a.The Stinger Stung a.k.a. Zaheri Saanp",
+    "director"       : "S. N. Patankar",
+    "cast"           : "Trymbakrao Pradhan, Tara Koregaonkar, Baba Vyas, K. G. Gokhale",
+    "genre"          : "Social",
+    "notes"          : "Patankar Friends And Co.",
+    "cinematographer": "DOP: S. N. Patankar"
+  },
+  {
+    "title"          : "Krishna Sudama a.k.a. Shri Krishna Sudama",
+    "director"       : "Vishnupant Divekar",
+    "cast"           : "Khalil, Vaidya, Prabha, Kesarbai, Moti, Sakina, Ali Miya",
+    "genre"          : "Mythology",
+    "notes"          : "Kohinoor Film Company",
+    "cinematographer": "DOP: A. P. Karandikar"
+  },
+  {
+    "title"          : "Lava Kusha",
+    "director"       : "R. Nataraja Mudaliar",
+    "cast"           : "",
+    "genre"          : "Mythology",
+    "notes"          : "Indian Film Company.[7]",
+    "cinematographer": ""
+  },
+  {
+    "title"          : "Mahabharata",
+    "director"       : "Rustomji Dhotiwala",
+    "cast"           : "",
+    "genre"          : "",
+    "notes"          : "Madan Theatres Ltd.",
+    "cinematographer": ""
+  },
+  {
+    "title"          : "Mrichhakatik",
+    "director"       : "Suchet Singh",
+    "cast"           : "Kanjibhai Rathod",
+    "genre"          : "",
+    "notes"          : "Story by Shudraka. Oriental Film Manufacturing Co.",
+    "cinematographer": "DOP: Gajanan Devare"
+  },
+  {
+    "title"          : "Narasinha Avtar",
+    "director"       : "Shree Nath Patankar",
+    "cast"           : "",
+    "genre"          : "Mythology",
+    "notes"          : "",
+    "cinematographer": ""
+  },
+  {
+    "title"          : "Narsinh Mehta",
+    "director"       : "Suchet Singh, Shukle",
+    "cast"           : "Kanjibhai Rathod",
+    "genre"          : "Devotional",
+    "notes"          : "Oriental Film Mfg. Co.",
+    "cinematographer": "DOP: Gajanan Devare"
+  },
+  {
+    "title"          : "Ram Janma",
+    "director"       : "G. V. Sane",
+    "cast"           : "",
+    "genre"          : "Mythology",
+    "notes"          : "Hindustan Cinema Film Co., Nasik",
+    "cinematographer": ""
+  },
+  {
+    "title"          : "Rama Or Maya",
+    "director"       : "Suchet Singh, Shukle",
+    "cast"           : "Dorothy Kingdon, Goharjaan, Kanjbhai Rathod, Samson",
+    "genre"          : "Mythology",
+    "notes"          : "Oriental Film Manufacturing Co.",
+    "cinematographer": "DOP: Gajanan Devare"
+  },
+  {
+    "title"          : "Sairandhri",
+    "director"       : "Baburao Painter",
+    "cast"           : "Balasabeb Yadav, Zunzharrao Pawar, Kamaladevi, Balasabeb Yadav, Keshavrao Dhaiber, Baburao Pendharkar, Ganpatrao Bakre, Ansuyabai, Gulabbai, Ravi Bhaskar",
+    "genre"          : "Mythology",
+    "notes"          : "Maharashtra Film Company",
+    "cinematographer": "DOP: S. Fattelal"
+  },
+  {
+    "title"          : "Shakuntala",
+    "director"       : "Suchet Singh",
+    "cast"           : "Dorothy Kingdon, Goharjaan, Mrs. Sutria, Samson",
+    "genre"          : "Mythology",
+    "notes"          : "Oriental Film Manufacturing Co.",
+    "cinematographer": "DOP: Baron Von Rayvon"
+  },
+  {
+    "title"          : "Shakuntala",
+    "director"       : "Shree Nath Patankar",
+    "cast"           : "",
+    "genre"          : "Mythology Drama",
+    "notes"          : "DOP: Shree Nath Patankar",
+    "cinematographer": ""
+  },
+  {
+    "title"          : "Shri Krishna Leela",
+    "director"       : "G. V. Sane",
+    "cast"           : "",
+    "genre"          : "Mythology",
+    "notes"          : "Hindustan Cinema Film Co., Nasik",
+    "cinematographer": ""
+  },
+  {
+    "title"          : "Shri Rama Janma",
+    "director"       : "G. V. Sane",
+    "cast"           : "",
+    "genre"          : "Mythology",
+    "notes"          : "Hindustan Cinema Film Co., Nasik",
+    "cinematographer": ""
+  },
+  {
+    "title"          : "Sita Swayamwar a.k.a. Sita's Marriage",
+    "director"       : "Shree Nath Patankar",
+    "cast"           : "Limaye",
+    "genre"          : "Mythology",
+    "notes"          : "Patankar and Friends Co.",
+    "cinematographer": "DOP: S. N. Patankar"
+  },
+  {
+    "title"          : "The Enchanted Pills a.k.a. Vichitra Gutika",
+    "director"       : "S. N. Patankar",
+    "cast"           : "Trymbakrao Pradhan, Marathe, Sitarampant Joshi, K. G. Gokhale, Damuanna Joshi, Dighe",
+    "genre"          : "Social",
+    "notes"          : "Patankar and Friends Co.",
+    "cinematographer": "DOP: S. N. Patankar"
+  },
+  {
+    "title"          : "Vikram Urvashi",
+    "director"       : "Kanjibhai Rathod",
+    "cast"           : "R. N. Vaidya, Lina Valentine",
+    "genre"          : "Mythology",
+    "notes"          : "Kohinoor Film Company",
+    "cinematographer": "DOP: Vishnu B. Joshi"
+  }
+]
