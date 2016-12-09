@@ -17,7 +17,7 @@ function downloadThePage(year, $) {
 
     if (!fs.existsSync(crawlerPages + year + '.html')) {
         fs.writeFile(crawlerPages + year + '.html', $.html(), function (err) {
-            console.log('File successfully written! - Check bollywood/' + crawlerPages + year + '.html');
+            console.log('File successfully written! - Check ' + crawlerPages + year + '.html');
         })
     }
 }
