@@ -5,6 +5,8 @@ var cheerio = require('cheerio');
 var jQuery = require('jquery');
 var app     = express();
 
+
+
 app.get('/scrape', function(req, res){
   // Let's scrape Anchorman 2
   url = 'http://www.imdb.com/title/tt1229340/';
@@ -62,6 +64,8 @@ app.get('/scrape', function(req, res){
     res.send('Check your console!')
   })
 })
+
+
 
 app.get('/getHollywoodMovies', function(req, res){
     res.setHeader("Access-Control-Allow-Origin", "*"); // Request headers you wish to allow
