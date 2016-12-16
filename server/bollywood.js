@@ -3,7 +3,6 @@ var fs      = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
 
-
 var app          = express();
 var port         = 8081;
 var crawlerPages = 'crawler-pages/';
@@ -148,11 +147,14 @@ app.get('/bollywood', function (req, res) {
 
 
 app.get('/getMovies/:year', function (req, res) {
-
     res.setHeader("Access-Control-Allow-Origin", "*"); // Request headers you wish to allow
     res.setHeader("Access-Control-Allow-Headers", "*");
 
-    res.sendFile(__dirname + '/bollywood/' + req.params.year + '.json')
+    if (!fs.existsSync(__dirname + '/bollywood/' + req.params.year + '.json')) {
+        res.send('Record does not exits!')
+    }else {
+        res.sendFile(__dirname + '/bollywood/' + req.params.year + '.json')
+    }
 });
 
 

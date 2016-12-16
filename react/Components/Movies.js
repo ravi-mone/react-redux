@@ -9,103 +9,37 @@ import thunk from 'redux-thunk';
 import logger from 'redux-logger'
 import promises from 'redux-promise-middleware'
 import { composeWithDevTools } from 'redux-devtools-extension';
-
-const reducers = function(state={movieslist: null, year: 1920}, action){
-
-    switch(action.type){
-
-        case 'FETCH_USERS_START_THUNK':{
-
-            break;
-        }
-        case 'RECEIVE_USERS':{
-            return Object.assign({}, state, {movieslist:action.payload})
-            break;
-        }
-        case 'FETCH_USERS_ERROR_THUNK':{
-            return Object.assign({}, state, {movieslist:action.payload})
-            break;
-        }
-        case 'FETCH_USERS_PROMISE_PENDING':{
-            return Object.assign({}, state, {movieslist:'LOADING...'})
-            break;
-        }
-
-        case 'FETCH_USERS_PROMISE_REJECTED': {
-            return Object.assign({}, state, {movieslist:`Message from PROMISE : ${action.payload.toString()} `})
-            break;
-        }
-        case 'FETCH_USERS_PROMISE_FULFILLED':{
-            return Object.assign({}, state, {movieslist:action.payload.data})
-            break;
-        }
-
-
-        case 'FETCH_MOVIES_LIST':
-            fetch('http://localhost:8081/getMovies')
-                .then(function (response) {
-                    if(response.status == 200){
-                        return response.json();
-                    }
-                }).then(function(movies) {
-                    console.log('movies :', movies)
-
-                return Object.assign({}, state, {movieslist:movies})
-            });
-        case 'INCREMENT':
-            
-            return Object.assign({}, state, { year: state.year + 1 });
-        case 'DECREMENT':
-            return Object.assign({}, state, { year: state.year - 1 });
-
-        default :
-            return state
-
-    }
-
-}
-
-
+import MovieReducers from './MovieReducers'
+let selectedYear=1920;
 
 
 //const store = createStore(reducers, applyMiddleware(promises(), thunk, logger()));
 
-const store = createStore(reducers, composeWithDevTools(
+const store = createStore(MovieReducers, composeWithDevTools(
     applyMiddleware(promises(), thunk, logger())
     // other store enhancers if any
 ));
 
-//let store =  applyMiddleware(logger)(createStore)(reducers);
-
-
 class MovieList extends React.Component{
 
-    constructor(){
-        super();
-        this.fetchMoviesUsingThunk = this.fetchMoviesUsingThunk.bind(this);
-        this.fetchMoviesUsingPromises = this.fetchMoviesUsingPromises.bind(this);
-        this.updateSelectedYear = this.updateSelectedYear.bind(this);
-        this.incrementCounter = this.incrementCounter.bind(this);
-        this.decrementCounter = this.decrementCounter.bind(this);
-        this.selectedYear=1920;
+    constructor(props){
+        super(props);
     }
 
 
     incrementCounter() {
-        store.dispatch({ type: 'INCREMENT', year: this.selectedYear });
+
+        store.dispatch({ type: 'INCREMENT', year: store.getState().year });
     }
 
     decrementCounter() {
-        store.dispatch({ type: 'DECREMENT', year: this.selectedYear });
+        store.dispatch({ type: 'DECREMENT', year: store.getState().year });
     }
 
     fetchMoviesUsingThunk(){
-        this.updateSelectedYear();
-        console.log(this.selectedYear)
-        //store.dispatch({ type: 'FETCH_MOVIES_LIST' });
         store.dispatch((dispatch) =>{
             dispatch({"type": "FETCH_USERS_START_THUNK"})
-            axios.get(`http://localhost:8081/getMovies/${this.selectedYear}`)
+            axios.get(`http://localhost:8081/getMovies/${store.getState().year}`)
                 .then(function (response) {
                     dispatch({type:'RECEIVE_USERS', payload: response.data})
                 }).catch(function(error) {
@@ -116,15 +50,15 @@ class MovieList extends React.Component{
         })
     }
     fetchMoviesUsingPromises(){
-        this.updateSelectedYear();
         store.dispatch({
             type: 'FETCH_USERS_PROMISE',
-            payload: axios.get(`http://localhost:8081/getMovies/${this.selectedYear}`)
+            payload: axios.get(`http://localhost:8081/getMovies/${store.getState().year}`)
         })
     }
 
     updateSelectedYear(){
-        this.selectedYear=document.querySelector('#selectedYear option:checked').value;
+        selectedYear=document.querySelector('#selectedYearId option:checked').value || store.getState().year;
+        store.dispatch({ type: 'SET_SELECTED_VALUE', year: selectedYear });
     }
 
     getMovies(movies){
@@ -150,7 +84,7 @@ class MovieList extends React.Component{
     render() {
         let storeValues = store.getState();
         let yearsDropDown = (
-            <select id="selectedYear" value={storeValues.year} onChange={this.updateSelectedYear}>
+            <select id="selectedYearId" value={storeValues.year} onChange={this.updateSelectedYear}>
                 {this.range(1919, 2017)}
             </select>
         ) ;
