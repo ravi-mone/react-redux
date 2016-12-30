@@ -21,5 +21,3 @@ has server and client folders
 <small>This will run the webpack-dev-server </small>
 
 `4. Now open the browser with :  http://localhost:8080/`
-
-_<small>Login credentials demo/demo123</small>_
