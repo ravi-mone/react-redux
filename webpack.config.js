@@ -1,4 +1,7 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin')
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var webpack = require('webpack');
+var config = require('config');
+
 var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
     template: __dirname + '/react/index.html',
     filename: 'index.html',
@@ -19,5 +22,5 @@ module.exports = {
             {test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader?presets[]=es2015'}
         ]
     },
-    plugins: [HTMLWebpackPluginConfig]
+    plugins: [HTMLWebpackPluginConfig, new webpack.optimize.UglifyJsPlugin({minimize: true})]
 }
