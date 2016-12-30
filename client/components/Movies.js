@@ -1,24 +1,9 @@
-/**
- * Created by techjini on 25/11/16.
- */
 import React from 'react';
-    import axios from 'axios'
-import { createStore, applyMiddleware } from 'redux';
-
-import thunk from 'redux-thunk';
-import logger from 'redux-logger'
-import promises from 'redux-promise-middleware'
-import { composeWithDevTools } from 'redux-devtools-extension';
-import MovieReducers from './MovieReducers'
+import axios from 'axios';
+import * as store from './stores/MoviesStores'
 let selectedYear=1920;
 
 
-//const store = createStore(reducers, applyMiddleware(promises(), thunk, logger()));
-
-const store = createStore(MovieReducers, composeWithDevTools(
-    applyMiddleware(promises(), thunk, logger())
-    // other store enhancers if any
-));
 
 class MovieList extends React.Component{
 
@@ -29,17 +14,17 @@ class MovieList extends React.Component{
 
     incrementCounter() {
 
-        store.dispatch({ type: 'INCREMENT', year: store.getState().year });
+        store.default.dispatch({ type: 'INCREMENT', year: store.default.getState().year });
     }
 
     decrementCounter() {
-        store.dispatch({ type: 'DECREMENT', year: store.getState().year });
+        store.default.dispatch({ type: 'DECREMENT', year: store.default.getState().year });
     }
 
     fetchMoviesUsingThunk(){
-        store.dispatch((dispatch) =>{
+        store.default.dispatch((dispatch) =>{
             dispatch({"type": "FETCH_USERS_START_THUNK"})
-            axios.get(`http://localhost:8081/getMovies/${store.getState().year}`)
+            axios.get(`http://localhost:8081/getMovies/${store.default.getState().year}`)
                 .then(function (response) {
                     dispatch({type:'RECEIVE_USERS', payload: response.data})
                 }).catch(function(error) {
@@ -50,15 +35,15 @@ class MovieList extends React.Component{
         })
     }
     fetchMoviesUsingPromises(){
-        store.dispatch({
+        store.default.dispatch({
             type: 'FETCH_USERS_PROMISE',
-            payload: axios.get(`http://localhost:8081/getMovies/${store.getState().year}`)
+            payload: axios.get(`http://localhost:8081/getMovies/${store.default.getState().year}`)
         })
     }
 
     updateSelectedYear(){
-        selectedYear=document.querySelector('#selectedYearId option:checked').value || store.getState().year;
-        store.dispatch({ type: 'SET_SELECTED_VALUE', year: selectedYear });
+        selectedYear=document.querySelector('#selectedYearId option:checked').value || store.default.getState().year;
+        store.default.dispatch({ type: 'SET_SELECTED_VALUE', year: selectedYear });
     }
 
     getMovies(movies){
@@ -82,7 +67,7 @@ class MovieList extends React.Component{
     };
 
     render() {
-        let storeValues = store.getState();
+        let storeValues = store.default.getState();
         let yearsDropDown = (
             <select id="selectedYearId" value={storeValues.year} onChange={this.updateSelectedYear}>
                 {this.range(1919, 2017)}
@@ -119,4 +104,4 @@ class MovieList extends React.Component{
 }
 
 
-export {MovieList, store};
+export default MovieList;

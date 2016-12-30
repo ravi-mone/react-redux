@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e44c753-e434-4991-a4aa-98bf2cb51fed" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/components/stores/MoviesStores.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/react/Components/MovieReducers.js" afterPath="$PROJECT_DIR$/client/components/reducers/MovieReducers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/react/Components/Movies.js" afterPath="$PROJECT_DIR$/client/components/Movies.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/react/index.html" afterPath="$PROJECT_DIR$/client/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/react/render.js" afterPath="$PROJECT_DIR$/client/render.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <list id="834a4b16-e584-4de1-ab95-0ca23fbd8af9" name="Rejected commit: Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,7 +32,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react/index.html">
+        <entry file="file://$PROJECT_DIR$/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
@@ -35,40 +42,55 @@
         </entry>
       </file>
       <file leaf-file-name="render.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react/render.js">
+        <entry file="file://$PROJECT_DIR$/client/render.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Movies.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react/Components/Movies.js">
+      <file leaf-file-name="Movies.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/components/Movies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="79">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="e#44#70#0" expanded="true" />
-                <marker date="1481911171415" expanded="true" signature="2055:2347" ph="..." />
-                <marker date="1481911171415" expanded="true" signature="2726:2789" ph="..." />
-                <marker date="1481911171415" expanded="true" signature="3001:3215" ph="..." />
-                <marker date="1481911171415" expanded="true" signature="3085:3196" ph="..." />
-                <marker date="1481911171415" expanded="true" signature="3114:3171" ph="..." />
-                <marker date="1481911171415" expanded="true" signature="3262:3822" ph="..." />
-                <marker date="1481911171415" expanded="true" signature="3284:3773" ph="..." />
+                <element signature="e#0#26#0" expanded="true" />
+                <marker date="1483108294758" expanded="true" signature="2299:2362" ph="..." />
+                <marker date="1483108294758" expanded="true" signature="2574:2788" ph="..." />
+                <marker date="1483108294758" expanded="true" signature="2658:2769" ph="..." />
+                <marker date="1483108294758" expanded="true" signature="2687:2744" ph="..." />
+                <marker date="1483108294758" expanded="true" signature="2835:3395" ph="..." />
+                <marker date="1483108294758" expanded="true" signature="2857:3346" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoviesStores.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/components/stores/MoviesStores.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MovieReducers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react/Components/MovieReducers.js">
+        <entry file="file://$PROJECT_DIR$/client/components/reducers/MovieReducers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="19" />
-              <folding />
+              <caret line="0" column="76" lean-forward="false" selection-start-line="0" selection-start-column="76" selection-end-line="0" selection-end-column="76" />
+              <folding>
+                <element signature="e#76#1820#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,8 +98,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="10" />
+            <state relative-caret-position="179">
+              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -99,19 +121,19 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="210">
               <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="141">
-                <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -141,7 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Ki &amp; Ka</find>
       <find>wikitable</find>
       <find>Sher-E-Arab</find>
       <find>FETCH_MOVIES_LIST</find>
@@ -171,6 +192,7 @@
       <find>this.fetchMoviesUsingThunk</find>
       <find>this.incrementCounter</find>
       <find>CryptoJS</find>
+      <find>loose-envify</find>
     </findStrings>
     <replaceStrings>
       <replace>webUrl</replace>
@@ -189,7 +211,6 @@
         <option value="$PROJECT_DIR$/React/Render.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/build/webpack.config.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/server/bollywood/1920.js" />
         <option value="$PROJECT_DIR$/react/index.html" />
@@ -211,6 +232,10 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/client/render.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/components/stores/MoviesStores.js" />
+        <option value="$PROJECT_DIR$/client/components/Movies.js" />
       </list>
     </option>
   </component>
@@ -268,7 +293,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stores" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawler-react" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reducers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -287,15 +374,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/build" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/components/reducers" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/server/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/React" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$/build" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.server.js">
@@ -394,23 +482,24 @@
       <workItem from="1481122874094" duration="4230000" />
       <workItem from="1481272460361" duration="9821000" />
       <workItem from="1481896152888" duration="10216000" />
-      <workItem from="1483104929446" duration="1173000" />
+      <workItem from="1483104929446" duration="2005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108335000" />
+    <option name="totallyTimeSpent" value="109167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26369327" sideWeight="0.4608295" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30650154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6749226" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960877" sideWeight="0.4814815" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4876161" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58359134" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3004695" sideWeight="0.5102041" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22565688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -423,7 +512,6 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3004695" sideWeight="0.5391705" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30709878" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -464,7 +552,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/react/Components/Movies.js</url>
+          <url>file://$PROJECT_DIR$/client/components/Movies.js</url>
           <line>45</line>
         </line-breakpoint>
       </breakpoints>
@@ -473,27 +561,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/Components/Movies.js">
+    <entry file="file://$PROJECT_DIR$/client/components/Movies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1830">
           <caret line="122" column="23" lean-forward="false" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
           <folding>
-            <element signature="e#44#70#0" expanded="true" />
-            <marker date="1481911171415" expanded="true" signature="2055:2347" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="2726:2789" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3001:3215" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3085:3196" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3114:3171" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3262:3822" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3284:3773" ph="..." />
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1483108294758" expanded="true" signature="2299:2362" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2574:2788" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2658:2769" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2687:2744" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2835:3395" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2857:3346" ph="..." />
           </folding>
         </state>
       </provider>
@@ -516,11 +595,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/render.js">
+    <entry file="file://$PROJECT_DIR$/client/render.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -532,19 +613,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/Components/Movies.js">
+    <entry file="file://$PROJECT_DIR$/client/components/Movies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1830">
           <caret line="122" column="23" lean-forward="false" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
           <folding>
-            <element signature="e#44#70#0" expanded="true" />
-            <marker date="1481911171415" expanded="true" signature="2055:2347" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="2726:2789" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3001:3215" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3085:3196" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3114:3171" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3262:3822" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3284:3773" ph="..." />
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1483108294758" expanded="true" signature="2299:2362" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2574:2788" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2658:2769" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2687:2744" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2835:3395" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2857:3346" ph="..." />
           </folding>
         </state>
       </provider>
@@ -603,24 +683,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/bollywood/bollywood_movies.json" />
-    <entry file="file://$PROJECT_DIR$/react/Components/Movies.js">
+    <entry file="file://$PROJECT_DIR$/client/components/Movies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="70" lean-forward="false" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
           <folding>
-            <element signature="e#44#70#0" expanded="true" />
-            <marker date="1481911171415" expanded="true" signature="2055:2347" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="2726:2789" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3001:3215" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3085:3196" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3114:3171" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3262:3822" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3284:3773" ph="..." />
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1483108294758" expanded="true" signature="2299:2362" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2574:2788" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2658:2769" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2687:2744" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2835:3395" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2857:3346" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/index.html">
+    <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -634,11 +713,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/render.js">
+    <entry file="file://$PROJECT_DIR$/client/render.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -690,15 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/index.html">
+    <entry file="file://$PROJECT_DIR$/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
@@ -735,39 +808,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/crawler-pages/v.html" />
-    <entry file="file://$PROJECT_DIR$/react/render.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/Components/MovieReducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react/Components/Movies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="e#44#70#0" expanded="true" />
-            <marker date="1481911171415" expanded="true" signature="2055:2347" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="2726:2789" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3001:3215" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3085:3196" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3114:3171" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3262:3822" ph="..." />
-            <marker date="1481911171415" expanded="true" signature="3284:3773" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/bollywood.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -776,14 +816,6 @@
             <element signature="n#!!block;n#getLocalOrWebURL#0" expanded="false" />
             <element signature="e#2137#4934#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,11 +830,73 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="141">
-            <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/render.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/reducers/MovieReducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="76" lean-forward="false" selection-start-line="0" selection-start-column="76" selection-end-line="0" selection-end-column="76" />
+          <folding>
+            <element signature="e#76#1820#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/stores/MoviesStores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/Movies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1483108294758" expanded="true" signature="2299:2362" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2574:2788" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2658:2769" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2687:2744" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2835:3395" ph="..." />
+            <marker date="1483108294758" expanded="true" signature="2857:3346" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

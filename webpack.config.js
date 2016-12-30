@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var config = require('config');
 
 var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
-    template: __dirname + '/react/index.html',
+    template: __dirname + '/client/index.html',
     filename: 'index.html',
     inject: 'body'
 });
@@ -11,7 +11,7 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
     devtool: 'source-map',
     entry:[
-        './react/render.js'
+        './client/render.js'
     ],
     output: {
         path: __dirname + '/dist',

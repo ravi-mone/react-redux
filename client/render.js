@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {MovieList, store} from './Components/Movies';
+import MovieList from './components/Movies';
+import Store from './components/stores/MoviesStores'
 import { Provider, connect} from 'react-redux';
 
 //1. Using connect() method to use it each time
@@ -11,7 +12,7 @@ function mapStateToProps(state) {
 const Connector = connect(mapStateToProps)(MovieList);
 
 ReactDOM.render(
-    <Provider store={store}>
+    <Provider store={Store}>
         <Connector />
     </Provider>, document.getElementById('root'));
 
